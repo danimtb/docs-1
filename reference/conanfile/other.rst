@@ -16,7 +16,6 @@ Use the `self.output` to print contents to the output.
 
 Check the source code. You might be able to produce different outputs with different colors.
 
-
 Running commands
 ----------------
 
