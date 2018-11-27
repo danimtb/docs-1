@@ -2,7 +2,7 @@
 ``cmake`` generator
 ===================
 
-If you are using **CMake** to build your project, you can use the ``cmake`` generator to define all your requirements information in cmake syntax.
+If you are using CMake to build your project, you can use the ``cmake`` generator to define all your requirements information in cmake syntax.
 It creates a file named ``conanbuildinfo.cmake`` that can be imported from your ``CMakeLists.txt``.
 
 

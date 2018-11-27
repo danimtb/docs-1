@@ -779,7 +779,10 @@ This object should be filled in ``package_info()`` method.
 +--------------------------------+---------------------------------------------------------------------------------------------------------+
 | self.cpp_info.exelinkflags     | Ordered list with linker flags (executables), by default empty []                                       |
 +--------------------------------+---------------------------------------------------------------------------------------------------------+
-| self.cpp_info.rootpath         | Filled with the root directory of the package, see ``deps_cpp_info``                                    |
+| self.cpp_info.rootpath         | | **Auto-managed**: Filled with the absolute root directory of the package.                             |
+|                                | | Defaulted to `self.package_folder`. See :ref:`_deps_cpp_info_attributes_reference`                    |
++--------------------------------+---------------------------------------------------------------------------------------------------------+
+| self.cpp_info.sysroot          | System directory folder. Defaulted to ``""`` (empty)                                                    |
 +--------------------------------+---------------------------------------------------------------------------------------------------------+
 
 The paths of the directories in the directory variables indicated above are relative to the

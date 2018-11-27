@@ -1,8 +1,7 @@
 .. _cmake_generator:
 
-
-`cmake`
-=======
+cmake
+=====
 
 .. container:: out_reference_box
 
@@ -10,7 +9,7 @@
     Go to :ref:`Integrations/CMake<cmake>` if you want to learn how to integrate your project or recipes with CMake.
 
 
-It generates a file named ``conanbuildinfo.cmake`` and declares some variables and methods
+It generates a file named ``conanbuildinfo.cmake`` and declares some variables and methods.
 
 .. _conanbuildinfocmake_variables:
 

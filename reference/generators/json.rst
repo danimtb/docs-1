@@ -3,7 +3,8 @@
 json
 ====
 
-A file named *conanbuildinfo.json* will be generated. It will contain the information about every dependency and the installed settings and options:
+A file named *conanbuildinfo.json* will be generated. It will contain the information about every dependency and the installed settings and
+options:
 
 .. code-block:: json
 
@@ -49,26 +50,24 @@ A file named *conanbuildinfo.json* will be generated. It will contain the inform
       }
     }
 
-
-
-The generated ``conanbuildinfo.json`` file is a json file with the following keys:
+The generated *conanbuildinfo.json* file is a JSON file with the following keys:
 
 dependencies
--------------
+------------
 
 The dependencies is a list, with each item belonging to one dependency, and each one with the following keys:
-- name
-- version
-- description
-- rootpath
-- sysroot
-- include_paths, lib_paths, bin_paths, build_paths, res_paths
-- libs
-- defines, cflags, cppflags, sharedlinkflags, exelinkflags
 
-Please note it is an ordered list, not a map, and dependency order is relevant. Upstream dependencies, i.e. the
-ones that do not depend on other packages, will be first, and their direct dependencies after them, and so on.
+  - name
+  - version
+  - description
+  - rootpath
+  - sysroot
+  - include_paths, lib_paths, bin_paths, build_paths, res_paths
+  - libs
+  - defines, cflags, cppflags, sharedlinkflags, exelinkflags
 
+Please note it is an ordered list, not a map, and dependency order is relevant. Upstream dependencies, i.e. the ones that do not depend on
+other packages, will be first, and their direct dependencies after them, and so on.
 
 deps_env_info
 -------------
@@ -78,14 +77,14 @@ The environment variables defined by upstream dependencies
 deps_user_info
 --------------
 
-The user variables defined by upstream dependencies
+The user variables defined by upstream dependencies.
 
 settings
 --------
 
-The settings used during `conan install`
+The settings used during :command:`conan install`.
 
 options
 -------
 
-The options of each dependency
+The options of each dependency.

@@ -36,8 +36,8 @@ This is the main file for it:
         return 0;
     }
 
-As this project has relies on the Poco Libraries we are going to create a *conanfile.txt* with our requirement and declare there the
-Premake generator too:
+As this project relies on the Poco Libraries we are going to create a *conanfile.txt* with our requirement and declare there the Premake
+generator too:
 
 .. code-block:: text
    :caption: conanfile.txt
